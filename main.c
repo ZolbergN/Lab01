@@ -17,7 +17,7 @@ int main()
             fgets(str1, STR_SIZE, FILE1);
             fgets(str2, STR_SIZE, FILE2);
             if (strcmp(str1, str2)) {
-                printf("Различия в строке %d\n", a);
+                printf("Различаются по строке %d\n", a);
             }
             a++;
         }
